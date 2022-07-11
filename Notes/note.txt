@@ -1,0 +1,13 @@
+
+while (i--> 0) 
+{
+    // ...do stuff
+}
+
+is same as
+
+while (i>0) 
+{
+     i--;    
+    // ...do stuff
+}
