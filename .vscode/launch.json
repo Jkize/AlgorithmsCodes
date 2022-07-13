@@ -1,0 +1,77 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch E76_Hard_Minimum_Window_Substring",
+            "request": "launch",
+            "mainClass": "E76_Hard_Minimum_Window_Substring",
+            "projectName": "AlgorithmsCodes_61ffbe24"
+        },
+        {
+            "type": "java",
+            "name": "Launch E209_Medium_Size_SubArray_Sum",
+            "request": "launch",
+            "mainClass": "E209_Medium_Size_SubArray_Sum",
+            "projectName": "AlgorithmsCodes_61ffbe24"
+        },
+        {
+            "type": "java",
+            "name": "Launch E187_Medium_Repeated_DNA_Sequences",
+            "request": "launch",
+            "mainClass": "E187_Medium_Repeated_DNA_Sequences",
+            "projectName": "AlgorithmsCodes_61ffbe24"
+        },
+        {
+            "type": "java",
+            "name": "Launch E299_Medium_Bulls_and_cows",
+            "request": "launch",
+            "mainClass": "E299_Medium_Bulls_and_cows",
+            "projectName": "AlgorithmsCodes_61ffbe24"
+        },
+        {
+            "type": "java",
+            "name": "Launch E424_Medium_Longest_Repeating_Character",
+            "request": "launch",
+            "mainClass": "E424_Medium_Longest_Repeating_Character",
+            "projectName": "AlgorithmsCodes_61ffbe24"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch E12_Medium_Integer_To_Roman",
+            "request": "launch",
+            "mainClass": "E12_Medium_Integer_To_Roman",
+            "projectName": "AlgorithmsCodes_61ffbe24"
+        },
+        {
+            "type": "java",
+            "name": "Launch E278_Easy_First_Bad_Version",
+            "request": "launch",
+            "mainClass": "E278_Easy_First_Bad_Version",
+            "projectName": "AlgorithmsCodes_61ffbe24"
+        },
+        {
+            "type": "java",
+            "name": "Launch E438_Medium_Find_All_Anagrams_In_a_string",
+            "request": "launch",
+            "mainClass": "E438_Medium_Find_All_Anagrams_In_a_string",
+            "projectName": "AlgorithmsCodes_61ffbe24"
+        },
+        {
+            "type": "java",
+            "name": "Launch E62_Medium_Unique_paths",
+            "request": "launch",
+            "mainClass": "E62_Medium_Unique_paths",
+            "projectName": "AlgorithmsCodes_61ffbe24"
+        }
+    ]
+}
