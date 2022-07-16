@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch E33_Medium_Search_In_Rotated_Sorted_Array",
+            "request": "launch",
+            "mainClass": "E33_Medium_Search_In_Rotated_Sorted_Array",
+            "projectName": "AlgorithmsCodes_61ffbe24"
+        },
+        {
+            "type": "java",
+            "name": "Launch E394_Medium_Decode_String",
+            "request": "launch",
+            "mainClass": "E394_Medium_Decode_String",
+            "projectName": "AlgorithmsCodes_61ffbe24"
+        },
+        {
+            "type": "java",
+            "name": "Launch E844_Easy_Backpace_String_Compare",
+            "request": "launch",
+            "mainClass": "E844_Easy_Backpace_String_Compare",
+            "projectName": "AlgorithmsCodes_61ffbe24"
+        },
+        {
+            "type": "java",
+            "name": "Launch E992_Hard_Subarrays_with_K_Different_Integers",
+            "request": "launch",
+            "mainClass": "E992_Hard_Subarrays_with_K_Different_Integers",
+            "projectName": "AlgorithmsCodes_61ffbe24"
+        },
+        {
+            "type": "java",
             "name": "Launch E76_Hard_Minimum_Window_Substring",
             "request": "launch",
             "mainClass": "E76_Hard_Minimum_Window_Substring",

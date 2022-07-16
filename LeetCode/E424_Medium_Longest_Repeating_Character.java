@@ -1,5 +1,3 @@
-import java.util.Comparator;
-import java.util.TreeMap;
 
 /**
  * E424_Medium_Longest_Repeating_Character

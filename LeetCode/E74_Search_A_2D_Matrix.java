@@ -1,4 +1,15 @@
-public class BinarySearch {
+public class E74_Search_A_2D_Matrix {
+
+    /*
+     * Runtime: 1 ms, faster than 38.72% of Java online submissions for Search a 2D
+     * Matrix.
+     * Memory Usage: 43 MB, less than 28.17% of Java online submissions for Search a
+     * 2D Matrix.
+     */
+    public boolean searchMatrix(int[][] matrix, int target) {
+
+        return binarySearch2d(matrix, target) != -1;
+    }
 
     /**
      * Use binary search.
@@ -7,6 +18,7 @@ public class BinarySearch {
      * 
      * an array convert to n * m matrix => a[x] =>matrix[x / m][x % m];
      * 
+     * But his soution is not good for m*n overflow 
      * @param matriz
      * @param target
      * @return
@@ -38,7 +50,6 @@ public class BinarySearch {
             else
                 return binarySearch(matrix[mid], target);
         }
-
         return -1;
     }
 
@@ -55,51 +66,5 @@ public class BinarySearch {
                 return mid;
         }
         return -1;
-    }
-
-    private int findFirst(int[] nums, int target) {
-        int idx = -1;
-        int start = 0;
-        int end = nums.length - 1;
-        while (start <= end) {
-            int mid = (start + end) / 2;
-            if (nums[mid] >= target) {
-                end = mid - 1;
-            } else {
-                start = mid + 1;
-            }
-            if (nums[mid] == target)
-                idx = mid;
-        }
-        return idx;
-    }
-
-    private int findLast(int[] nums, int target) {
-        int idx = -1;
-        int start = 0;
-        int end = nums.length - 1;
-        while (start <= end) {
-            int mid = (start + end) / 2;
-            if (nums[mid] <= target) {
-                start = mid + 1;
-            } else {
-                end = mid - 1;
-            }
-            if (nums[mid] == target)
-                idx = mid;
-        }
-        return idx;
-    }
-
-    public int recursive(int key, int[] a, int lo, int hi) {
-        if (lo > hi)
-            return -1;
-        int mid = lo + (hi - lo) / 2;
-        if (key < a[mid])
-            return recursive(key, a, lo, mid - 1);
-        else if (key > a[mid])
-            return recursive(key, a, mid + 1, hi);
-        else
-            return mid;
     }
 }
