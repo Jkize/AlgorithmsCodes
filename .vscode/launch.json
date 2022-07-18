@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch E15_3_sum",
+            "request": "launch",
+            "mainClass": "E15_3_sum",
+            "projectName": "AlgorithmsCodes_61ffbe24"
+        },
+        {
+            "type": "java",
             "name": "Launch E33_Medium_Search_In_Rotated_Sorted_Array",
             "request": "launch",
             "mainClass": "E33_Medium_Search_In_Rotated_Sorted_Array",
