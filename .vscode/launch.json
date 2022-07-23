@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch E130_Medium_Sorrounded_Regions",
+            "request": "launch",
+            "mainClass": "E130_Medium_Sorrounded_Regions",
+            "projectName": "AlgorithmsCodes_61ffbe24"
+        },
+        {
+            "type": "java",
+            "name": "Launch E1_Easy_Two_Sum",
+            "request": "launch",
+            "mainClass": "E1_Easy_Two_Sum",
+            "projectName": "AlgorithmsCodes_61ffbe24"
+        },
+        {
+            "type": "java",
+            "name": "Launch E242_Valid_Anagram",
+            "request": "launch",
+            "mainClass": "E242_Valid_Anagram",
+            "projectName": "AlgorithmsCodes_61ffbe24"
+        },
+        {
+            "type": "java",
+            "name": "Launch E713_Medium_Subarray_Product_Less_Than_K",
+            "request": "launch",
+            "mainClass": "E713_Medium_Subarray_Product_Less_Than_K",
+            "projectName": "AlgorithmsCodes_61ffbe24"
+        },
+        {
+            "type": "java",
             "name": "Launch E15_3_sum",
             "request": "launch",
             "mainClass": "E15_3_sum",
