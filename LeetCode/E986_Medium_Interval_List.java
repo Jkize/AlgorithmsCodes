@@ -4,10 +4,10 @@ import java.util.List;
 /**
  * E986_Interval_List
  */
-public class E986_Interval_List {
+public class E986_Medium_Interval_List {
 
     public static void main(String[] args) {
-        E986_Interval_List sol = new E986_Interval_List();
+        E986_Medium_Interval_List sol = new E986_Medium_Interval_List();
     }
 
     /**

@@ -1,19 +1,17 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
- * Runtime: 1 ms, faster than 88.36% of Java online submissions for Subsets.
- * Memory Usage: 43.3 MB, less than 51.61% of Java online submissions for
- * Subsets.
- * Next challenges:
- * https://leetcode.com/problems/subsets/
+ * E90_Medium_SubsetsII
  */
-public class E78_Medium_Subsets {
+public class E90_Medium_SubsetsII {
 
-    public List<List<Integer>> subsets(int[] nums) {
+    public List<List<Integer>> subsetsWithDup(int[] nums) {
         List<List<Integer>> ttl = new ArrayList<>();
         ttl.add(new ArrayList<>());
 
+        Arrays.sort(nums);
         dfs(ttl, nums, 0, new ArrayList<>());
 
         return ttl;
@@ -25,9 +23,11 @@ public class E78_Medium_Subsets {
             bt.add(nums[i]);
             ttl.add(new ArrayList<>(bt));
             dfs(ttl, nums, i + 1, bt);
-            bt.remove(bt.size() - 1);
+            int dt = bt.remove(bt.size() - 1);
+            while (i < nums.length - 1 && dt == nums[i + 1]) {
+                i++;
+            }
         }
 
     }
-
 }

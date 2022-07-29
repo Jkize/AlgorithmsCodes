@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch E47_Medium_Permutations_II",
+            "request": "launch",
+            "mainClass": "E47_Medium_Permutations_II",
+            "projectName": "AlgorithmsCodes_61ffbe24"
+        },
+        {
+            "type": "java",
+            "name": "Launch E39_Medium_Combination_Sum",
+            "request": "launch",
+            "mainClass": "E39_Medium_Combination_Sum",
+            "projectName": "AlgorithmsCodes_61ffbe24"
+        },
+        {
+            "type": "java",
+            "name": "Launch R",
+            "request": "launch",
+            "mainClass": "R",
+            "projectName": "AlgorithmsCodes_61ffbe24"
+        },
+        {
+            "type": "java",
             "name": "Launch E130_Medium_Sorrounded_Regions",
             "request": "launch",
             "mainClass": "E130_Medium_Sorrounded_Regions",
