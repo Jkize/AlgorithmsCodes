@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch valid",
+            "request": "launch",
+            "mainClass": "valid",
+            "projectName": "AlgorithmsCodes_61ffbe24"
+        },
+        {
+            "type": "java",
             "name": "Launch E47_Medium_Permutations_II",
             "request": "launch",
             "mainClass": "E47_Medium_Permutations_II",
